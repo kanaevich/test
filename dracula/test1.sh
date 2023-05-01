@@ -1,3 +1,4 @@
+#!/bin/bash
 str=$(tr -c 'a-zA-Z' '\n' <dracula.txt)
 str2=$(sort -b <<<$str)
 mapfile -t array <<<$str2
